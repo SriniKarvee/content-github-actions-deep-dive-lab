@@ -11,7 +11,7 @@ jobs:
     env:
       BUCKET_NAME: cg-non-prod-workflow
     steps:
-      - name: checkout code
+      - name: checkout v code
         uses: actions/checkout@v2
       - name: configure aws cli
         uses: aws-actions/configure-aws-credentials@v1
